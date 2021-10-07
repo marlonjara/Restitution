@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--CABEÇALHO DE CONFIGURAÇÃO-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Restitution</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/b28bbaac43.js" crossorigin="anonymous"></script>
+</head>
+
+
+
+<!--CORPO-->
+
+<body>
+
+    <!--TAG CONTEÚDO MAIS IMPORTANTE-->
+    <main>
+        <!--MENU DE OPÇÕES-->
+        <!-- zoeirinha do pedro-->
+        <div class="container container-navbar ">
+            <div class="row">
+                <div class="col-4 nav-bar-items">
+                    <a href="https://www.olx.com.br">
+                        <i class="fas fa-home"></i>
+                        HOME
+                    </a>
+                </div>
+                <div class="col-4 nav-bar-items">
+                    <a href="https://www.olx.com.br">
+                        <i class="fas fa-location-arrow"></i>
+                        Browse
+                    </a>
+                </div>
+                <div class="col-4 nav-bar-items">
+                    <a href="https://www.olx.com.br">
+                        <i class="fas fa-location-arrow"></i>
+                        Browse
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--MENU - ÁREA DE NAVEGAÇÃO-->
+        <aside class="sidebarMenuNavegacao">
+
+            <!--Logo-->
+            <img src="./img/logo.png" alt="Logo">
+
+            <!--LISTA DE LINKS-->
+            <nav class="menuNavegaca col-12">
+                <ul class="ListaLinks">
+                    <li class="col-4">
+                        <a href="https://www.olx.com.br">
+                            <img src="./img/icone1.png" alt="HOME">
+                            HOME
+                        </a>
+                    <li class="col-4">
+                        <a href="https://www.olx.com.br">
+                            <img src="./img/icone2.png" alt="Browse">
+                            Browse
+                        </a>
+                    </li>
+                    <li class="col-4">
+                        <a href="https://www.olx.com.br">
+                            <img src="./img/icone3.png" alt="Site">
+                            Site
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+
+
+
+        </aside>
+
+
+        <!--SEÇÃO LISTA DE MÚSICAS-->
+        <section class="secaoMusicas">
+            <!--CABEÇALHO DA SEÇÃO DE MÚSICA-->
+            <header class="cabecalho">
+
+                <div class="user">
+                    <img src="./src/img/user.png" alt="Usuário">
+                    <h2>Marlon</h2>
+                </div>
+
+                <div class="qtdMusicas">
+                    <p>1200 Musicas</p>
+                </div>
+
+            </header>
+
+            <!--LISTA DE MÚSICAS-->
+            <div class="areaListaMusicas">
+                <!--BOTÃO DE PAUSE-->
+                <button id="btnPause">Pause</button>
+
+                <!--CABEÇALHO QUE REPRESENTA AS INFORMAÇÕES DAS MUSICAS-->
+                <div class="cabealhoInfoMusicas">
+                    <p>
+                        <TITLE< /p>
+                            <p>ARTIST</p>
+                            <p>ALBUM</p>
+                </div>
+
+                <!--LISTA DE MUSICAS-->
+                <ul class="listsMusicas">
+                    <!--MUSICAS-->
+                    <li>
+                        <p>Good Enough</p>
+                        <P>MeiaUm</P>
+                        <p>Good Enought</p>
+                    </li>
+                    <li>
+                        <p>Good Enough</p>
+                        <P>MeiaUm</P>
+                        <p>Good Enought</p>
+                    </li>
+                    <li>
+                        <p>Good Enough</p>
+                        <P>MeiaUm</P>
+                        <p>Good Enought</p>
+                    </li>
+                </ul>
+
+
+            </div>
+
+        </section>
+
+        <!--PLAYER-->
+        <section class="areaPlayer">
+
+            <div class="musicasAtual">
+                <figure class="imagemAlbum">
+                    <img src="./src/img/album4.png" alt="Album">
+                    <figcaption>Lengenda</figcaption>
+                </figure>
+
+                <h2>Square One</h2>
+                <p>Coldplayer</p>
+            </div>
+
+            <!--ÍCONES >ANTERIOR - PLAY - PRÓXIMA - VOLUME-->
+            <div class="areaPlayerControles">
+                <button id="btnControlPrev">Musica anterior</button>
+                <button id="btnControlPlay">Play</button>
+                <button id="btnControlNext">Proxima Musica</button>
+            </div>
+
+            <div class="areaplayerVolume">
+                <input type="range" value="1" step="0.1">
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+</body>
+
+
+</html>

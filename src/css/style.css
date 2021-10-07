@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    font-size: 15px;
+    font-family: monospace;
+
+}
+
+/*
+
+seletor {
+    propriedade: valor;
+}
+
+/* ESTILOS GERAIS */
+body, main, div, section, li, ul, img, figure, header, p, nav, h2
+{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   box-sizing: border-box;
+   outline: none;
+   list-style: none;
+   
+
+
+}
+/* CORPO */
+body {
+    
+}
+
+/* MAIN */
+main{}
+.sidebarMenuNavegacao{}
+.sidebarMenuNavegacao > img{}
+ 
+/* ASIDE*/
+.menuNavegacao{}
+
+.listaLinks{}
+.listaLinks > li{}
+.listaLinks > li> a{}
+.listaLinks > li > a > img{}
+
+/* SECAO LISTA DE MUSICAS */
+.secaoMusicas{}
+.cabecalho{}
+
+/* USUARIO */
+.user{}
+.user > img{}
+.user > h2{}
+
+/* QUANTIDADE DE MUSICAS */
+.qtdMusicas{}
+.qtdMusicas > p{}
+
+/* ÁREA LISTA DE MUSICAS */
+.areaListaMusicas{}
+#btnPause
+
+/*CABECALHO INFO MUSICAS */
+.cabecalhoInfoMusicas{}
+.cabecalhoInfoMusicas > p{}
+
+/* LISTA DE MUSICAS */
+.listaMusicas{}
+.areaListaMusicas > li{}
+.listaMusicas > li >p{}
+
+/* SEÇÃO DO PLAYER */
+.areaPlayer{}
+
+/* INFORMAÇÕES MUSICA ATUAL*/
+.imagemAlbum{}
+.imagemAlbum > img{}
+.imagemAlbum > figcaption{}
+
+.infoMusicaAtual >h2{}
+.infoMusicaAtual >p{}
+
+/* AREA DE CONTROLE */
+.areaPlayerControles{}
+.areaPlayerControles > button{}
+
+#btnControlPrev{}
+#btnControlPlay{}
+#btnControlNext{}
+
+.areaPlayerVolume{}
+
+.nav-bar-items {
+    font-size: 20px;
+}
+.nav-bar-items{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.container-navbar{
+    background-color: rgb(87, 32, 104);
+    height: 50px;
+    color: #bfbfbf; 
+    display: flex;
+}
